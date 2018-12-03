@@ -51,7 +51,7 @@
 *参考：ECMA-376，第3版（2011年6月），基础和标记语言参考§17.4.38*
 
 ### Word 2007 示例:
-![](http://officeopenxml.com/images/wp-table-1.gif)
+![](../images/wp-table-1.gif)
 
 ## 内容
 一个`<w:tbl>`元素可以包含大量元素，主要与跟踪修订和添加自定义XML相关。核心要素如下所示：

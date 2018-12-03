@@ -36,7 +36,7 @@
 ```
 _**参考：** ECMA-376，第3版（2011年6月），基础和标记语言参考§17.4.79。_
 
-![](http://officeopenxml.com/images/wp-tableRow-1.gif)
+![](../images/wp-tableRow-1.gif)
 
 ## 内容
 

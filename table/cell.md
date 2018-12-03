@@ -15,7 +15,7 @@
 _**参考：** ECMA-376，第3版（2011年6月），基础和标记语言参考§17.4.66。_
 
 ## Word 2007示例
-![](http://officeopenxml.com/images/wp-tableCell-1.gif)
+![](../images/wp-tableCell-1.gif)
 
 ## 内容
 `<w:tc>`元素可包含大量的元素，通常与跟踪修订和自定义的XML相关。主要的元素如下：

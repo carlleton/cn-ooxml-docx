@@ -1,4 +1,4 @@
-# OOXML(Office Open XML)中文文档
+# OOXML(Office Open XML)中文文档（还不全）
 
 > 本文档是对网站[officeopenxml.com](http://officeopenxml.com/)的翻译
 

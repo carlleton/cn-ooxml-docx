@@ -1,7 +1,7 @@
 # 网格/列定义
 表的列由`<w:tblGrid>`元素定义。每个`<w:tblGrid>`元素包含若干`<w:gridCol>`单元尺寸（有时称为逻辑列）在表中。元素的数量是通过扩展每个单元格的总列数来确定的。例如，下表中有三列，其`<w:tblGrid>`中需要3个`<w:tblGrid>`元素。
 
-![](http://officeopenxml.com/images/wp-tableGrid-3.gif)
+![](../images/wp-tableGrid-3.gif)
 
 该表的`<w:tblGrid>`如下：
 ```
@@ -14,7 +14,7 @@
 _**参考：**ECMA-376，第3版（2011年6月），基础和标记语言参考§17.4.49。_
 
 当单元格在行与行之间的长度不相等时，事情会变得更加复杂。例如，下表有五列，因此在`<w:tblGrid>`元素中需要5 `<w:gridCol>`元素。
-![](http://officeopenxml.com/images/wp-tableGrid-1.gif)
+![](../images/wp-tableGrid-1.gif)
 
 该表的`<w:tblGrid>`如下：
 ```
@@ -76,7 +76,7 @@ _**参考：**ECMA-376，第3版（2011年6月），基础和标记语言参考�
 内容为“AAA”的第一个单元格跨越前两个逻辑列，因此宽度是第一个和第二个`<w:gridCol>`元素值的总和(1638 + 1242 = 2880)。请注意，`<w:gridSpan>`值为2，表示单元格跨越两个逻辑列。内容为“BBB”的第二个单元格跨越第三个和第四个逻辑列，因此宽度是第三个和第四个`<w:gridCol>`元素值(2880 + 2178 = 5058)的总和。所述`<w:gridSpan>`的值也为2。
 
 所述`<w:gridSpan>`表示水平地横跨多个逻辑单元(由定义的小区`<w:tblGrid>` 。，很像放置在电池中的HTML跨度属性细胞也跨越垂直使用`<w:vMerge>`元件/属性在`<w:tcPr>`元素中的属性。
-![](http://officeopenxml.com/images/wp-tableGrid-5.gif)
+![](../images/wp-tableGrid-5.gif)
 
 最后两行如下所示:
 ```
@@ -171,4 +171,4 @@ _**参考：**ECMA-376，第3版（2011年6月），基础和标记语言参考�
   </tr>
 </table>
 ```
-![](http://officeopenxml.com/images/wp-tableGrid-5.gif)
+![](../images/wp-tableGrid-5.gif)
